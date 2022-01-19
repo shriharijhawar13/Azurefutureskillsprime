@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+        QR Code Generator
+
+    </title>
+</head>
+
+<style>
+    .top {
+        height: 500px;
+        width: auto;
+    }
+    
+    body {
+        background-image: url('{{user_image}}');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+
+<body>
+
+    <h2 style="padding: 5px; padding-top: 0rem;"> QR Code Genetator </h2>
+    <p style="text-align: center;">
+        <br> Step 1) Enter the url in the text box below
+        <br>
+        <br> Step 2) Press GO !!
+        <br>
+        <br> Viola !!! Just like that your QR Code is ready.
+    </p>
+
+
+    <form action="/result" style="align-items: center; text-align: center; padding-top: 80px;">
+        <input name="url" type="text" placeholder="Enter your URL" height="50" size="50">
+        <input type="submit" style="color:darkgreen;" value="GO" style="border: black;">
+    </form>
+
+</body>
+
+</html>

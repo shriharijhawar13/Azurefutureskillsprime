@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        QR CODE
+    </title>
+
+
+    <style>
+        img {
+            height: 175px;
+            width: 175px;
+        }
+        
+        .outer {
+            margin: auto;
+            height: 390px;
+            width: 450px;
+        }
+        
+        h2 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        p {
+            font-size: medium;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        img {
+            align-self: center;
+        }
+        
+        .mainimg {
+            margin: auto;
+            height: 350px;
+            width: 470px
+        }
+        
+        .top {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .outerlink {
+            padding-left: 2px;
+            color: #CC3853;
+            text-decoration: none;
+        }
+        
+        .image {
+            padding-left: 10px;
+            height: 150px;
+            width: 170px
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding: 3rem;">
+        <h2>
+            Congratulations your QR Code is successfully generated !!!
+        </h2>
+
+    </div>
+
+
+
+    <div class="outer">
+        <div class="image">
+            <img class="top" style="border: 1px solid black;" src="{{ url_for('static', filename = qr) }}">
+
+            <!--img class="top" style="border: 1px solid black;" src=" //// Specify the path + filename here"-->
+        </div>
+
+
+</body>
+
+</html>
