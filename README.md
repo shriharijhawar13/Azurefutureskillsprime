@@ -1,8 +1,10 @@
 # Azurefutureskillsprime
 
  
-The project that ive chosen to do is a QR Code Generator. 
+The project that I've chosen to do is a QR Code Generator. 
 It essentially asks the user to input a url to a website and the QR Code for that corresponding website is generated. 
+
+I have used python and flask as the primary programming languages.
 
 I have primarily used 3 Azure resources - 
 
